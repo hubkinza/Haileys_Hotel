@@ -321,6 +321,28 @@
     margin: 0;
   }
 /* Booking Page  */
+.booking-bg {
+    position: relative;
+    background-image: url('assets/images/sandbkg.webp');
+    background-size: 700px auto;
+    background-position: top center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    z-index: 1;  
+  }
+  
+  .booking-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(240, 231, 236, 0.632);
+    z-index: 0;
+  }
+  
 /* Contact Us Page */
 /* Footer (All Pages)  */
 .footer {
