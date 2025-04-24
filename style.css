@@ -225,3 +225,43 @@
       font-size: 1.3rem;
     }
   }
+/* Footer (All Pages)  */
+.footer {
+    background-color: #ece6ec;
+    color: #300833;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-links img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a:hover img {
+    transform: scale(1.1);
+  }
+  
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .footer {
+      text-align: left;
+    }
+  }
