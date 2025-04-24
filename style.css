@@ -492,7 +492,7 @@ body.contact-us-page {
     line-height: 1.6;
   }
   
-  /* === Contact Page Responsive === */
+  /* Contact Page Responsive */
   @media (min-width: 768px) {
     .contact-content {
       flex-direction: row;
