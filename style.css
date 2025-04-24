@@ -225,6 +225,59 @@
       font-size: 1.3rem;
     }
   }
+/* View Rooms Page */
+.rooms-section {
+    position: relative;
+    padding: 3rem 0;
+    font-family: 'Italiana', serif;
+    background-image: url('assets/images/sandbkg.webp');
+    background-size: 1000px auto;
+    background-position: top center;
+    min-height: 100vh;
+    z-index: 0;
+  }
+  
+  .rooms-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(240, 231, 236, 0.632);
+    z-index: -1;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 2.5rem;
+    color: #300833;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    color: #444;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .room-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(239, 238, 239, 0.749);
+  }
+/* Booking Page  */
+/* Contact Us Page */
 /* Footer (All Pages)  */
 .footer {
     background-color: #ece6ec;
