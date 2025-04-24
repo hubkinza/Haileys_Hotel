@@ -91,3 +91,137 @@
       display: flex;
     }
   }
+  /* Landingpage: Hero Section */
+.hero {
+    background: url('assets/images/Hero-img.webp') center/cover no-repeat;
+    height: 90vh;
+    position: relative;
+    color: #fff;
+  }
+  
+  .overlay {
+    background-color: rgba(82, 80, 72, 0.731);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .overlay h1 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .overlay p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  /* Button*/
+  .btn {
+    display: inline-block;
+    background-color: #300833;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: fit-content;
+  }
+  
+  .btn:hover {
+    background-color: #A7589F;
+  }
+  
+  /* Cards on LandingPage */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 12px;
+  }
+  
+  .img-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.85);
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+  }
+  
+  .img-container img:hover {
+    transform: scale(1.02);
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 74, 80, 0.35);
+  }
+  
+  .img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Italiana', cursive;
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  /* Responsive Styles for Hero and Cards  */
+  @media (min-width: 768px) {
+    .overlay h1 {
+      font-size: 3rem;
+    }
+  
+    .overlay p {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+  
+    .cards {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .card {
+      flex: 1;
+      font-size: 1.3rem;
+    }
+  }
