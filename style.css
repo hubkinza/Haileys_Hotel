@@ -17,7 +17,7 @@
     height: 100%;
   }
   
-  /* Header(All Pages)  */
+  /* Navigation (All Pages)  */
   .navbar {
     background-color: #ece6e8;
     padding: 1rem 2rem;
@@ -27,21 +27,22 @@
     position: relative;
   }
   
+  /* Hidden checkbox */
+  #nav-toggle {
+    display: none;
+  }
+  
+  /* Logo */
   .logo {
     font-family: 'La Belle Aurore', cursive;
     font-size: 1.5rem;
     color: #300833;
-  }
-  
-  a.logo {
     text-decoration: none;
   }
   
-  .menu-toggle {
-    display: none;
-  }
-  
-  .menu-icon {
+  /* Hamburger icon */
+  .menu-icon,
+  .nav-toggle-label {
     width: 30px;
     display: none;
     flex-direction: column;
@@ -56,6 +57,7 @@
     border-radius: 2px;
   }
   
+  /* Nav links (desktop default) */
   .nav-links {
     list-style: none;
     display: flex;
@@ -69,8 +71,15 @@
     font-size: 1rem;
   }
   
-  /* Responsive Header */
+  /* Mobile styles */
   @media (max-width: 768px) {
+    /* Show menu icon */
+    .menu-icon,
+    .nav-toggle-label {
+      display: flex;
+    }
+  
+    /* Hide nav links by default */
     .nav-links {
       display: none;
       flex-direction: column;
@@ -78,19 +87,26 @@
       top: 100%;
       right: 0;
       width: 100%;
-      background-color: #f1edf1;
+      background-color: rgb(237, 235, 243);
       padding: 1rem 2rem;
       text-align: right;
+      box-shadow: 0 2px 2px #3a3a3a;
     }
   
-    .menu-toggle:checked + .menu-icon + .nav-links {
-      display: flex;
-    }
-  
-    .menu-icon {
+    /* Show nav links when checkbox is checked */
+    #nav-toggle:checked ~ .menu-icon + .nav-links,
+    #nav-toggle:checked ~ .nav-links {
       display: flex;
     }
   }
+  
+  
+    /* links when checkbox is checked */
+    .nav-toggle:checked ~ .menu-icon + .nav-links {
+      display: flex;
+    }
+  
+  
   /* Landingpage: Hero Section */
 .hero {
     background: url('assets/images/Hero-img.webp') center/cover no-repeat;

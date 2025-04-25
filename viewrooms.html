@@ -11,22 +11,26 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-     <!-- Navigation -->
-     <nav class="navbar">
-        <a href="index.html"class="logo">Hailey’s Hotel </a>
-        
-        <ul class="nav-links">
-        
+  <nav class="navbar">
+    <!-- Hidden Checkbox -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+    <!-- Logo -->
+    <a href="index.html" class="logo">Hailey’s Hotel</a>
+
+    <!-- Hamburger Icon Label -->
+    <label for="nav-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <!-- Nav Links -->
+    <ul class="nav-links">
         <li><a href="viewrooms.html">View Rooms</a></li>
         <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-      
-        <div class="menu-icon" id="menuToggle">
-          <span>View Rooms</span>
-          <span>Contact Us</span>
-          <span>Home</span>
-        </div>
-      </nav>
+    </ul>
+  </nav>
       <!-- Rooms Display -->
     <section class="rooms-section">
         <div class="container">
