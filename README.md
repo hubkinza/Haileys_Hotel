@@ -17,8 +17,6 @@ Haileys Hotel is a fictional hotel website designed to showcase an elegant, user
 - All files are clearly named, consistently lowercase, and grouped logically (e.g., `assets/` folder for images).
 - The CSS is separated into an external `style.css` file, linked in the HTML `<head>`.
 - Code is organized and commented for easy readability and maintainability.
-  ## UI Colors
-  ![color](https://github.com/user-attachments/assets/2d74e493-fd8e-45d0-8e5a-b469ad887e4f)
 
 ## UI
 ### Wireframes 
@@ -33,6 +31,9 @@ Haileys Hotel is a fictional hotel website designed to showcase an elegant, user
 
 ### color scheme
 The color scheme for Haileys Hotel was carefully chosen to create an elegant, calm, and refined atmosphere, ideal for a hospitality brand.
+ #### UI Colors
+  ![color](https://github.com/user-attachments/assets/2d74e493-fd8e-45d0-8e5a-b469ad887e4f)
+
 
 | **Colour Name** | **Hex Code** | **Role in Design** | **Color Theory** |
 |:----------------|:-------------|:-------------------|:-----------------|
