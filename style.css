@@ -146,7 +146,7 @@
   }
   
   /* Cards on LandingPage */
-  .room-cards {
+  .cards {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -218,7 +218,7 @@
       max-width: 600px;
     }
   
-    .room-cards {
+    .cards {
       flex-direction: row;
       justify-content: space-between;
     }
