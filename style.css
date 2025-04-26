@@ -42,8 +42,8 @@
   }
   
   .menu-icon {
+    display: none; 
     width: 30px;
-    display: none;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
@@ -70,27 +70,29 @@
   }
   
   /* Responsive Header */
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      width: 100%;
-      background-color: #f1edf1;
-      padding: 1rem 2rem;
-      text-align: right;
-    }
-  
-    .menu-toggle:checked + .menu-icon + .nav-links {
-      display: flex;
-    }
-  
-    .menu-icon {
-      display: flex;
-    }
+ 
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex; /* Show hamburger icon on mobile */
   }
+
+  .nav-links {
+    display: none; /* Hide nav links by default */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #f1edf1;
+    padding: 1rem 2rem;
+    text-align: right;
+    z-index: 1000;
+  }
+
+  .menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex; /* Show nav links when menu is toggled */
+  }
+}
   
   /* Landingpage: Hero Section */
 .hero {
