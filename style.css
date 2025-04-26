@@ -395,29 +395,32 @@
   }
   
 /* Contact Us Page */
-body.contact-us-page {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    background-image: url('assets/images/sandbkg.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  body.contact-us-page::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(240, 231, 236, 0.632);
-    z-index: 0;
-    pointer-events: none;
-  }
-  
+
+.contact-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('assets/images/sandbkg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+}
+
+.contact-page-wrapper::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 231, 236, 0.632);
+  z-index: -1;
+  pointer-events: none;
+}  
+
   section.contact-container {
     min-height: 100vh;
     width: 100%;
