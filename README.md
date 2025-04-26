@@ -96,9 +96,17 @@ Then I should see a contact form or contact information
 ## Screenshots
 Here are some screenshots of the final implementation:
 ### Landing page 
+![screencapture-hubkinza-github-io-Haileys-Hotel-2025-04-26-22_18_21](https://github.com/user-attachments/assets/398508d8-a23b-4028-9e4f-bf91a5ada623)
+
 ### View rooms Page
+![screencapture-hubkinza-github-io-Haileys-Hotel-viewrooms-html-2025-04-26-22_18_38](https://github.com/user-attachments/assets/dec28be4-3911-4c9a-ad8c-87894cb452ae)
+
 ### Booking Page
+![screencapture-hubkinza-github-io-Haileys-Hotel-booking-html-2025-04-26-22_18_53](https://github.com/user-attachments/assets/851af155-3485-4e2b-9cdf-11ede539a959)
+
+
 ### Contact US page
+![screencapture-hubkinza-github-io-Haileys-Hotel-contactus-html-2025-04-26-22_19_23](https://github.com/user-attachments/assets/293ee847-73e0-4f92-8f81-3351c00c9c01)
 
 
 These screenshots align with the user stories, such as **viewing rooms**, **booking a room**, and **contacting the hotel**.
