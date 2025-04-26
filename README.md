@@ -1,5 +1,9 @@
 # Haileys Hotel
 
+![image](https://github.com/user-attachments/assets/1363fee2-226a-48cc-b494-14162a33a351)
+
+
+
 ## Purpose of the Project
 Haileys Hotel is a fictional hotel website designed to showcase an elegant, user-friendly interface for potential customers. The project demonstrates the ability to create a fully responsive, accessible, and visually appealing multi-page website using only HTML and CSS. It aims to provide users with an easy way to explore rooms, book their stay, and contact the hotel.You can view the deoplyed site [here](https://hubkinza.github.io/Haileys_Hotel/)
 
@@ -16,7 +20,18 @@ Haileys Hotel is a fictional hotel website designed to showcase an elegant, user
   ## UI Colors
   ![color](https://github.com/user-attachments/assets/2d74e493-fd8e-45d0-8e5a-b469ad887e4f)
 
+## UI
+### Wireframes 
 
+#### Mobile view 
+![image](https://github.com/user-attachments/assets/fe66400e-c3f1-475e-93dd-207a4207783d)
+
+
+#### Desktop view 
+![image](https://github.com/user-attachments/assets/6505d17a-75a5-418c-bb8a-493f124735c8)
+
+
+### color scheme
 The color scheme for Haileys Hotel was carefully chosen to create an elegant, calm, and refined atmosphere, ideal for a hospitality brand.
 
 | **Colour Name** | **Hex Code** | **Role in Design** | **Color Theory** |
