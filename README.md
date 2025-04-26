@@ -44,17 +44,24 @@ These screenshots align with the user stories, such as **viewing rooms**, **book
 
 ## Testing Process
 ### Css Validator 
+![css](https://github.com/user-attachments/assets/c986e007-ae7c-49f3-a0d7-bf552a460d01)
+
+### HTML validator
 Index.html
+![index](https://github.com/user-attachments/assets/9ecaa643-98db-4259-96af-ff42be5d8024)
 
 
 Viewroom.html
+![viewrooms](https://github.com/user-attachments/assets/221c0415-a630-4d2f-a3c8-1794a74e4977)
 
 Booking.html
+![booking](https://github.com/user-attachments/assets/446043cc-0580-4102-9ce0-78595fabdc43)
 
 Contactus.html
+![contact us](https://github.com/user-attachments/assets/c5911ca9-c753-484b-b718-eebbb797998d)
 
 
-### HTML validator
+
 
 ### Functionality Testing
 - ✅ Navigate through all pages using menu links to ensure correct linking.
