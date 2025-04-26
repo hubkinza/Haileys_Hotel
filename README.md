@@ -27,15 +27,15 @@ The color scheme for Haileys Hotel was carefully chosen to create an elegant, ca
 | Deep Plum       | `#300833`     | Text / Contrast / Callouts | Deep plum complements the lighter tones and conveys luxury, mystery, and depth, providing strong contrast for headings, callouts, and important elements. |
 
 ## User stories 
-# Hotel Website Features
+### Hotel Website Features
 
-## Feature: Hotel Landing Page
+### Feature: Hotel Landing Page
 
 As a user  
 I want to view a beautiful landing page  
 So that I can get a welcoming first impression of Hailey’s Hotel
 
-### Scenario: Viewing the homepage
+#### Scenario: Viewing the homepage
 Given I visit the hotel’s website  
 Then I should see the name "Hailey's Hotel"  
 And I should see an introduction about the hotel  
@@ -43,38 +43,38 @@ And I should see a call-to-action button to "View Rooms"
 
 ---
 
-## Feature: Navigation Bar
+### Feature: Navigation Bar
 
 As a user  
 I want to navigate easily across pages  
 So that I can find information quickly
 
-### Scenario: Viewing the navigation menu
+#### Scenario: Viewing the navigation menu
 Given I am on any page of the website  
 Then I should see navigation links to "Home", "View Rooms", "Booking", and "Contact Us"
 
 ---
 
-## Feature: View Rooms
+### Feature: View Rooms
 
 As a user  
 I want to browse available rooms  
 So that I can decide which room I’d like to book
 
-### Scenario: Viewing room cards
+#### Scenario: Viewing room cards
 Given I click on "View Rooms"  
 Then I should see a list of room options  
 And each card should show a room image, name, and a "Book Room" button
 
 ---
 
-## Feature: Booking Page
+### Feature: Booking Page
 
 As a user  
 I want to fill out a booking form  
 So that I can reserve a room for specific dates
 
-### Scenario: Filling out the booking form
+#### Scenario: Filling out the booking form
 Given I click on "Book Room"  
 Then I should be taken to a booking form  
 And I should be able to enter check-in and check-out dates  
@@ -83,24 +83,25 @@ And click a “book” to complete the booking
 
 ---
 
-## Feature: Contact Page
+### Feature: Contact Page
 
 As a user  
 I want to access contact details for the hotel  
 So that I can reach out for questions or special requests
 
-### Scenario: Viewing the contact page
+#### Scenario: Viewing the contact page
 Given I click on "Contact Us"  
 Then I should see a contact form or contact information
 
 ## Screenshots
 Here are some screenshots of the final implementation:
+### Landing page 
+### View rooms Page
+### Booking Page
+### Contact US page
 
 
-
-
-
-These screenshots align with the user stories, such as **viewing rooms**, **booking a stay**, and **contacting the hotel**.
+These screenshots align with the user stories, such as **viewing rooms**, **booking a room**, and **contacting the hotel**.
 
 ## Testing Process
 ### Css Validator 
