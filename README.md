@@ -5,7 +5,7 @@
 
 
 ## Purpose of the Project
-Haileys Hotel is a fictional hotel website designed to showcase an elegant, user-friendly interface for potential customers. The project demonstrates the ability to create a fully responsive, accessible, and visually appealing multi-page website using only HTML and CSS. It aims to provide users with an easy way to explore rooms, book their stay, and contact the hotel.You can view the deoplyed site [here](https://hubkinza.github.io/Haileys_Hotel/)
+Haileys Hotel is a website designed to showcase an elegant, user-friendly interface for potential customers. The project demonstrates the ability to create a fully responsive, accessible, and visually appealing multi-page website using only HTML and CSS. It aims to provide users with an easy way to explore rooms, book their stay, and contact the hotel.You can view the deoplyed site [here](https://hubkinza.github.io/Haileys_Hotel/)
 
 ## Value for Users
 - Easy navigation across essential hotel services.
